@@ -1,0 +1,41 @@
+###
+GET http://localhost:3000/api/usuarios/
+
+
+###
+POST http://localhost:3000/api/crear/
+Content-Type: application/json
+
+{
+    "id": 2,
+    "nombre": "Manuel",
+    "apellido": "Martinez",
+    "correo": "manuelmartjose@hotmail.com",
+    "contrasena": "zrvs5sdh",
+    "descripcion": "Toco guitarra",
+    "generos": [
+            "rock","jazz","Blues"
+        ],
+    "instrumentos":[
+            "guitarra","bajo", "Vocales"
+        ],
+    "fecha": "18/octubre/2002",
+    "precio": "20$",
+    "calificacion": "5",
+    "collab": "si" 
+}
+
+###
+GET http://localhost:3000/api/usuarios/6451aceac275b1c0614f4349
+
+
+###
+DELETE http://localhost:3000/api/usuarios/2
+
+###
+PUT http://localhost:3000/api/usuarios/2
+Content-Type: application/json
+
+{
+    //algo q haga update despues vemos
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Manuel",
+        "apellido": "Martinez",
+        "correo": "manuelmartjose@hotmail.com",
+        "contrasena": "zrvs5sdh",
+        "descripcion": "Toco guitarra",
+        "generos": [
+                "rock","jazz","Blues"
+            ],
+        "instrumentos":[
+                "guitarra","bajo", "Vocales"
+            ],
+        "fecha": "18/octubre/2002",
+        "precio": "20$",
+        "calificacion": "5",
+        "collab": "si" 
+    }
+]
